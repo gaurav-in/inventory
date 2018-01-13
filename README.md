@@ -6,8 +6,8 @@
 <li><b>CommandExecutor uses a thread to execte the tasks added to the queue.</b></li>
 </ol>
 <ol><b>Flow of the application</b>
-<li>Command create itemName costPrice sellingPrice</li>
-<li>Creates a CreateCommand Object (Uses inventory management service to carry out the command)</li>
-<li>The object is submitted for execution by CommandExecutor</li>
-<li>Objects store data in static collections to be able to be available for all the objects</li>
+<li>Command "create itemName costPrice sellingPrice" -> creates CreateCommand. Similarly for other string inputs found under com.x.sms.command package</li>
+<li>Command Objects use inventory management service to carry out the command</li>
+<li>Command object is submitted for execution by CommandExecutor</li>
+<li>Objects store data in static collections to make data available for all the objects</li>
 </ol>
