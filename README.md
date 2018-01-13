@@ -2,7 +2,7 @@
 
 <ol>
 <li>Test case SmsServiceTest will be used to enter the application program.</li>
-<li>The list of all the input commands is used to dispay the input in the end.</li>
+<li>The list of all the input commands is used to dispay the report in the end.</li>
 <li><b>CommandExecutor uses a thread to execte the tasks added to the queue.</b></li>
 </ol>
 <ol><b>Flow of the application</b>
